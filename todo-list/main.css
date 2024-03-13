@@ -1,0 +1,46 @@
+body {
+  background: gray;
+  position: relative;
+}
+#container {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#title {
+  color: #fff;
+}
+#sub-container {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  border: 10px solid #fff;
+  border-radius: 10px;
+}
+#list-group {
+  padding: 20px;
+}
+#list-group .list-group-item {
+  border: none;
+}
+#list-group .list-group-item + .list-group-item {
+  border-top: 1px solid #000;
+}
+#input-group {
+  margin-top: 10px;
+}
+#input-area {
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#button-area {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: gray;
+  color: #fff;
+}
